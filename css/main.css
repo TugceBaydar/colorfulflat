@@ -5,7 +5,6 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  margin: 0 10px 0;
 }
 
 /* section 1 */
@@ -54,16 +53,16 @@ nav ul li {
 }
 
 .bottom {
-  position: absolute;
-  top: 150px;
-  left: 290px;
-  display: inline-block;
+  margin-top: -50px;
+  text-align: center;
+
 }
 
 .bottom-left {
   width: 350px;
-  margin-top: 30px;
-  display: grid;
+  display: inline-block;
+  position: relative;
+  top: -60px;
 }
 
 h1 {
@@ -72,16 +71,15 @@ h1 {
   font-size: 32px;
   letter-spacing: 5px;
   text-align: center;
-  align-items: center;
+ 
+
+
 }
 
-
-
 .bottom img {
-  position: relative;
-  margin-left: 0px;
-  left: 450px;
-  bottom: 130px;
+  margin-top: 60px;
+  margin-left: 80px;
+  display: inline-block;
 }
 
 
@@ -90,8 +88,8 @@ h1 {
 #sec2 {
   background-color: #FEFEFE;
   height: 350px;
-  margin: 0 auto;
-  padding-left: 100px;
+  padding-left: 160px;
+  text-align: center;
 }
 
 .grid {
@@ -100,9 +98,7 @@ h1 {
   height: 300px;
   grid-column-gap: 40px;
   grid-template-columns: 300px 300px 300px;
-  margin-left: 50px;
   padding-top: 50px;
-  padding-left: 100px;
   padding-right: 200px;
 
 }
@@ -116,23 +112,12 @@ h2 {
 .grid p {
   font-size: 12px;
   margin-top: 10px;
+  text-align: center;
 
-}
-
-#item1 {
-  padding-top: 4px;
-}
-
-#item1 img {
-  margin-left: 100px;
-}
-
-#item2 img {
-  margin-left: 120px;
 }
 
 #item3 img {
-  margin-left: 100px;
+ 
   height: 90px;
 }
   /* section 3 */
@@ -143,6 +128,7 @@ h2 {
   height: 700px;
   padding-left: 350px;
   padding-right: 300px;
+  text-align: center;
 }
 
 #recentworks {
@@ -157,15 +143,17 @@ h2 {
   color: white;
   font-size: 11px;
   width: 300px;
-  padding-left: 225px;
+  padding-left: 150px;
   padding-top: 20px;
+  text-align: center;
 
 }
 
 .menu {
   padding-top: 50px;
-  padding-left: 40px;
+  padding-left: 20px;
   width: 600px;
+  text-align: center;
 
 }
 
@@ -188,20 +176,23 @@ h2 {
   padding: 5px;
 } 
 
-.grid2 {
-  display: grid;
-  grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 100px 100px;
-  padding-top: 40px;
-  grid-row-gap: 70px;
-  grid-column-gap: 30px;
-  height: 320px;
-  padding-left: 20px;
+#sec3 li a:focus {
+  border:1px solid #FFF;
+  border-radius: 5px;
+} 
 
+#pictures {
+  margin-top: 40px;
+  width: 800px;
+  text-align: center;
+  position: relative;
+  right: 60px;
 }
 
+
 #pictures img {
-   width: 180px;
+   width: 190px;
+   padding: 0 20px 20px 0;
 }
 
 .button {
@@ -210,9 +201,8 @@ h2 {
   color:grey;
   padding:15px 20px;
   border: none;
-  margin-top: 40px;
-  margin-left: 290px;
-
+  margin-top: 20px;
+  margin-left: 50px;
 }
 
  /* section 4 */
