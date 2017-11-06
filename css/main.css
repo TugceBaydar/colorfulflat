@@ -210,23 +210,337 @@ h2 {
 #sec4 {
 
   background-color: #EEEEEE;
-  height: 330px;	
+  height: 500px;	
 }
+
+#sec4 h3 {
+  text-align: left;
+  font-size: 14px;
+
+}
+
+#sec4 p {
+  font-size: 10px;
+  text-align: left;
+  padding-top: 10px;
+
+}
+
+#sec4 #b1 {
+  border-radius: 5px;
+  background-color: #8DCD9B;
+  color:white;
+  padding:15px 20px;
+  border: none;
+  margin-top: 20px;
+  
+}
+
+#sec4 #b2 {
+  border-radius: 5px;
+  background-color: #9CCCD6;
+  color:white;
+  padding:15px 20px;
+  border: none;
+  margin-top: 20px;
+}
+
+#first {
+   text-align: center;
+   height: 240px;
+   padding-top: 40px;
+}
+
+#first img,
+   #second img {
+  display: inline-block;
+  width: 180px;
+}
+
+#first img {
+  padding-right: 60px;
+}
+
+#first div {
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  bottom: 20px;
+}
+
+#second {
+  text-align: center;
+  padding-top: 40px;
+}
+
+#second img {
+  padding-left: 60px;
+}
+
+#second div {
+  display: inline-block;
+   text-align: left;
+   position: relative;
+   bottom: 20px;
+}
+
+#sec4 hr {
+  position: relative;
+  width: 60%;
+  left: 230px;
+  bottom: 20px;
+}
+
+    /* section 5 */
 
 #sec5 {
 
   background-color: #D8ABBC;	
-  height: 330px;
+  height: 530px;
 }
+
+.mot {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.mot h1 {
+  text-align: center;
+
+}
+
+ /* p class for all the section (tgc) */
+
+.tgc {
+  text-align: center;
+  color: white;
+  font-size: 11px;
+  padding-top: 20px;
+  line-height: 180%;
+}
+
+.john {
+  display: inline-block;
+  padding-right: 40px;
+  width: 180px;
+}
+
+.sc {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.john img {
+  width: 180px;
+}
+
+.john div {
+  background-color: white;
+  position: relative;
+  width: 99%;
+  height: 110px;
+  bottom: 5px;
+  left: 1px;
+  
+
+}
+
+.john h3 {
+   font-size: 18px;
+   padding-top: 10px;
+   font-family: 'Roboto Slab', serif;
+   font-weight: 700;
+   letter-spacing: 0.6px;
+}
+
+.john h4 {
+   font-size: 12px;
+   padding-top: 5px;
+
+}
+
+.john p {
+  font-size: 8px;
+  padding-top: 10px;
+  line-height: 180%;
+}
+
+#johnicons {
+   height: 30px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+
+.fa-facebook {
+  background-color: #2C409E;
+  color: white;
+  width: 23px;
+  height: 20px;
+  border-radius: 20px;
+   padding-top: 3px;
+}
+
+.fa-tumblr {
+  background-color: #69BEEA;
+  color: white;
+  width: 23px;
+  height: 20px;
+  border-radius: 20px;
+  padding-top: 3px;
+}
+
+.fa-pinterest {
+  background-color: #BA3047;
+  color: white;
+  width: 23px;
+  height: 20px;
+  border-radius: 20px;
+   padding-top: 3px;
+}
+  
+  /* section 6 */
 
 #sec6 {
 
   background-color: #A9CCDA;
-  height: 330px;
+  height: 580px;
+  text-align: center;
 }
+
+ #sec6 .john {
+ 
+  width: 230px;
+  height: 250px;
+
+
+ }
+
+ #sec6 img {
+  width: 230px;
+ }
+
+ #sec6 .john div {
+  height: 150px;
+ 
+
+ }
+
+ #sec6 .john h4 {
+  font-weight: 400;
+ }
+
+ #sec6 button {
+  color: #A9CCDA;
+  margin-top: 45px;
+  margin-left: 0px;
+  margin-right: 25px;
+ }
+
+    /* section 7 */
 
 #sec7 {
 
   background-color: #343434;
-  height: 360px;	
+  height: 760px;	
+  text-align: center;
 }
+
+#sec7 button {
+  color: black;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+#sec7 form {
+  text-align: center;
+  position: relative;
+  left: 400px;
+  top: 50px;
+
+}
+
+#sec7 form > input {
+  display: block;
+  width: 420px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 13px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+
+}
+#sec7 form > textarea {
+  display: block;
+  width: 420px;
+  height: 90px;
+  border-radius: 10px;
+  font-size: 13px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+#sec7 hr {
+  border-color: black;
+  margin-top: 60px; 
+  position: relative;
+  left: 200px;
+  width: 76%;
+}
+
+
+#sec7 .seci {
+  float: left;
+  margin-left: 200px;
+  margin-top: 22px;
+}
+
+.fa-twitter {
+  background-color: #484848;
+  color: #343434;
+  width: 40px;
+  height: 30px;
+  padding-top: 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+#sec7 .fa-facebook {
+  background-color: #484848;
+  color: #343434;
+  width: 40px;
+  height: 30px;
+  padding-top: 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+#end {
+  float: right;
+  margin-top: 35px;
+  margin-right: 100px; 
+}
+
+#end p {
+  color: #756C55;
+}
+
+
+
+#sec7 span {
+ color: #484848;
+}
+
+
+
+
+
+
+
+
+
+
+
